@@ -1,0 +1,336 @@
+body, html {
+  color: #111;
+  font-family: serif;
+  background-color: #f2f2f2;
+  user-select: none;
+}
+
+img {
+width: 100%;
+}
+
+#btn_exit {
+  font-size: 15px;
+  position: fixed;
+  margin-left: 2px;
+  margin-top: 7px;
+  width: 20%;
+  height: 3vh;
+  border: 2px solid #6E18C3;
+  box-shadow: 1px solid #666;
+  border-radius: 20px;
+  background-color: #F2F2F2;
+}
+
+#btn_exit:after {
+  font-size: 15px;
+  float: left;
+  margin-right: -10px;
+  transform: rotate(65deg);
+  content: '▶' none;
+}
+
+.texto_luva {
+  font-size: 12px;
+  font-weight: bold none;
+  text-decoration: underline none;
+  display: inline;
+  float: left;
+  color: none;
+}
+
+.texto_protetor {
+  font-size: 12px;
+  font-weight: none;
+  text-decoration: none;
+  text-align: center;
+  margin: 4px;
+  display: inline;
+}
+
+.texto_bota {
+  font-size: 12px;
+  font-weight: none;
+  transform: translate(-20%, -0%);
+  font-size: auto;
+  text-decoration: none;
+  float: right;
+  display: inline;
+}
+
+.descrever {
+  display: block;
+  text-decoration: none;
+  color: none;
+}
+
+#luva {
+  border: 1px solid #666;
+  display: inline;
+  align: center;
+  width: 30%;
+  height: 30%;
+}
+
+#protetor {
+  border: 1px solid #666;
+  width: 30%;
+  height: 30%;
+}
+
+#bota {
+  border: 1px solid #666;
+  display: inline;
+  width: 30%;
+  height: 30%;
+  margin-top: none;
+  float: right none;
+}
+#protetor2 {
+  border: 1px solid #666;
+  width: 23%;
+  height: 23%;
+}
+
+#bota2 {
+  border: 1px solid #666;
+  display: inline;
+  width: 23%;
+  height: 23%;
+  margin-top: none;
+  float: right none;
+}
+
+#touca {
+  border: 1px solid #666;
+  display: inline;
+  width: 23%;
+  height: 23%;
+  margin-top: none;
+  float: right none;
+}
+
+#luva2 {
+  border: 1px solid #666;
+  display: inline;
+  align: center;
+  width: 23%;
+  height: 23%;
+}
+
+#lata {
+  border: 1px solid #666;
+  width: 97%;
+  height: 20%;
+	
+}
+
+#lata_trava {
+  border: 1px solid #666;
+  width: 97%;
+  height: 20%;
+}
+
+#buttonStop {
+  border: 1px solid #666;
+  width: 97%;
+  height: 15%;
+	
+}
+#CaixaPerforma {
+  border: 1px solid #666;
+  width: 97%;
+  height: 55%;
+}
+
+#my_img {
+	width: 95%;
+}
+
+#my_img1 {
+	width: 95%;
+	height: 7%;
+}
+
+#my_img2 {
+	width: 95%;
+	height: 20%;
+}
+
+#action-bar {
+}
+
+#increase-font-size {
+  position: absolute;
+  right: 12px;
+  top: 9px;
+  font-size: 15px;
+  position: fixed;
+  margin-left: 2px;
+  margin-top: 7px;
+  width: 10%;
+  height: 3vh;
+  border: 2px solid #6E18C3;
+  box-shadow: 1px solid #666;
+  border-radius: 20px 20px 0px 20px;
+  background-color: #F2F2F2;
+}
+#decrease-font-size {
+  position: fixed;
+  right: 12px;
+  top: 40px;
+  font-size: 15px;
+  margin-left: 2px;
+  margin-top: 7px;
+  width: 10%;
+  height: 3vh;
+  border: 2px solid #6E18C3;
+  box-shadow: 1px solid #666;
+  border-radius: 20px 0px 20px 20px;
+  background-color: #F2F2F2;
+}
+
+button:hover {
+   background-color: #DDDDDD;
+   color: black;
+  transition: transform 1s;
+  transition: left 0.9s;
+ }
+
+.avatar-chip {
+   width: 90%;
+   height: none;
+   display: inline-flex;
+   align-items: center;
+   padding: 5px;
+   cursor: none;
+   border: none;
+   background-color: rgb(0, 0, 0, 0.0);
+   border-radius: 20px;
+   box-shadow: 0 0 4px #666;
+}
+
+.avatar-chip:hover {
+   background-color: #ADE1F5;
+   transition-duration: none;
+  }
+
+.avatar_moega {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #131313;
+    color: white;
+    margin-right: 15px;
+    text-align: center;
+    font-size: 40px;
+    background-image: url("ic/ic_button_moega.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    box-shadow: 0 0 4px #666;
+}
+
+.avatar_virador {
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+    background-image: url("ic/ic_virador.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.avatar-chip-text {
+   color: black;
+   font-size: 25px;
+}
+.loader {
+  margin-top: 90%;
+  width: 50px;
+  height: 50px;
+  border: 5px solid white;
+  box-shadow: 0 0 4px #666;
+  border-top: 5px solid #5F00BE;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.loader-inner {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-top: 5px solid transparent;
+  border-radius: 50%;
+  animation: spin-inner 200.0s linear infinite;
+}
+
+.accordion {
+  background-color: rgba(95,0,190, 0.9);
+  color: white;
+  cursor: none;
+  padding: 15px;
+  width: 100%;
+  border: 1px solid black;
+  text-align: left;
+  outline: none;
+  font-size: 1em;
+  font-weight: bold;
+  transition: 0.0s;
+  border-radius:10px 10px 10px 10px;
+}
+
+.active, .accordion:hover {
+  background-color: rgba(95,0,190, 0.9);
+  color: white;
+}
+.accordion-content {
+  padding: 10px;
+  display: none;
+}
+
+.accordion p {
+  margin: 0;
+}
+.accordion::after {
+  content: '\002B';
+  float: right;
+  transition: transform 0.3s;
+  font-size: 1em;
+}
+
+.accordion-button, .active::after {
+  content: '\002B';
+  float: right;
+  transform: rotate(44deg);
+  font-size: 1em;
+}
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: #F2F2F2;
+  overflow: hidden;
+  border: 1px solid;
+  border-radius: 0px 0px 10px 10px;
+  transition: transform 1s;
+   transition-duration: 1s;
+}
+
+.panel {
+  transform: scaleY(1) none;
+}
+
+.block {
+  transform: scaleY(0) none;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(-999deg);
+  }
+}
+
+@keyframes spin-inner {
+  100% {
+    transform: rotate(1000deg);
+  }
+  }
