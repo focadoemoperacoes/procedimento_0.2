@@ -167,13 +167,13 @@ width: 100%;
 
 
 table {
-  width: 99%;
+  width: auto;
   border-collapse: collapse;
   box-shadow: 1px solid #666;
 }
 
 th, td {
-  width: 99%;
+  width: none;
   border: 1px solid #111;
   padding: 8px;
   text-align: left;
