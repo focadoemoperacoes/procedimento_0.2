@@ -22,6 +22,11 @@ width: 100%;
   background-color: #F2F2F2;
 }
 
+#btn_exit:hover {
+   background-color: #ADE1F5;
+   border: 2px solid  grey;
+}
+
 #btn_exit:after {
   font-size: 15px;
   float: left;
@@ -115,7 +120,7 @@ width: 100%;
   display: inline;
   align: center;
   width: 23%;
-  height: 23%;
+  height: 20%;
 }
 
 #lata {
@@ -160,6 +165,52 @@ width: 100%;
 #action-bar {
 }
 
+
+table {
+  width: 99%;
+  border-collapse: collapse;
+  box-shadow: 1px solid #666;
+}
+
+th, td {
+  border: 1px solid #111;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+#text1 {
+	font-weight: normal;
+}
+
+#text0 {
+	width: 98%;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#text2 {
+	width: 98%;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: none;
+}
+#text3 {
+  padding: 8px;
+	width: none;
+	height: 5%;
+	font-size: 12px;
+	font-weight: bold;
+}
+	
+img {
+	width: 98%;
+}
+
 #increase-font-size {
   position: absolute;
   right: 12px;
@@ -188,6 +239,16 @@ width: 100%;
   box-shadow: 1px solid #666;
   border-radius: 20px 0px 20px 20px;
   background-color: #F2F2F2;
+}
+
+#increase-font-size:hover {
+   background-color: #ADE1F5;
+   border: 2px solid  grey;
+}
+
+#decrease-font-size:hover {
+   background-color: #ADE1F5;
+   border: 2px solid  grey;
 }
 
 button:hover {
@@ -243,25 +304,6 @@ button:hover {
 .avatar-chip-text {
    color: black;
    font-size: 25px;
-}
-.loader {
-  margin-top: 90%;
-  width: 50px;
-  height: 50px;
-  border: 5px solid white;
-  box-shadow: 0 0 4px #666;
-  border-top: 5px solid #5F00BE;
-  border-radius: 50%;
-  animation: spin 1s linear infinite;
-}
-
-.loader-inner {
-  width: 40px;
-  height: 40px;
-  border: none;
-  border-top: 5px solid transparent;
-  border-radius: 50%;
-  animation: spin-inner 200.0s linear infinite;
 }
 
 .accordion {
@@ -323,14 +365,34 @@ button:hover {
   transform: scaleY(0) none;
 }
 
+.loader {
+  margin-top: 90%;
+  width: 30px;
+  height: 30px;
+  border: 5px solid white;
+  box-shadow: 0 0 20px #666;
+  border-top: 5px solid #5F00BE;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+}
+
 @keyframes spin {
-  100% {
-    transform: rotate(-999deg);
+  to {
+    transform: rotate(360deg);
   }
 }
 
+.loader-inner {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-top: 5px solid transparent;
+  border-radius: 50%;
+  animation: spin-inner -2000s linear infinite;
+}
+
 @keyframes spin-inner {
-  100% {
-    transform: rotate(1000deg);
+  to {
+    transform: rotate(360deg);
   }
-  }
+}
