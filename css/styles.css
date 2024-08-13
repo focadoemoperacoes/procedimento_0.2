@@ -399,6 +399,6 @@ button:hover {
 }
 @media (min-width: 768px) {
 #increase-font-size, #decrease-font-size {
-  width: 147px;
-  height: 227px;
+    padding: 12px 24px;
+    font-size: 16px;
 }
