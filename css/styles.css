@@ -397,3 +397,8 @@ button:hover {
     transform: rotate(360deg);
   }
 }
+@media (min-width: 768px) {
+#increase-font-size, #decrease-font-size {
+  width: 147px;
+  height: 227px;
+}
